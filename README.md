@@ -51,5 +51,9 @@ Before running the project, ensure you have the following installed:
 
   ### Desktop View: 
 
- | ![Image 1](src/assets/screenshots/interactive-dashboard-desktop-bar-chart.png) | ![Image 2](src/assets/screenshots/interactive-dashboard-desktop-line-chart.png) 
-| ![Image 3](src/assets/screenshots/interactive-dashboard-desktop-pie-chart.png) |
+  <p align="center">
+  <img src="src/assets/screenshots/interactive-dashboard-desktop-bar-chart.png" width="200">
+  <img src="src/assets/screenshots/interactive-dashboard-desktop-line-chart.png" width="200">
+  <img src="src/assets/screenshots/interactive-dashboard-desktop-pie-chart.png" width="200">
+</p>
+
