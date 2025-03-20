@@ -27,7 +27,8 @@ Before running the project, ensure you have the following installed:
 ## Setup Instructions
   1.**Clone the Repository:** <br>
   
-      `git clone https://github.com/your-username/interactive-dashboard.git` <br>
+      `git clone https://github.com/your-username/interactive-dashboard.git`
+      
       `cd interactive-dashboard`
 
   2. **Install Dependencies:**: <br>
