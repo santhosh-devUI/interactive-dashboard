@@ -42,3 +42,7 @@ Before running the project, ensure you have the following installed:
   4. **Open the Application:** <br>
 
       - Navigate to `http://localhost:4200` in your browser.
+    
+## Running Tests
+  To run the unit tests, use the following command:
+  `ng test`
