@@ -51,7 +51,7 @@ Before running the project, ensure you have the following installed:
 
   ### Desktop View: 
 
-  <p align="center">
+  <p >
   <img src="src/assets/screenshots/interactive-dashboard-desktop-bar-chart.png" width="200">
   <img src="src/assets/screenshots/interactive-dashboard-desktop-line-chart.png" width="200">
   <img src="src/assets/screenshots/interactive-dashboard-desktop-pie-chart.png" width="200">
