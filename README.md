@@ -22,4 +22,4 @@ Before running the project, ensure you have the following installed:
 
 - **Node.js**: Download and install from [nodejs.org](https://nodejs.org/)
 - **Angular CLI**: Install globally using the following command:
-  npm install -g @angular/cli
+  `npm install -g @angular/cli`
