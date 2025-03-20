@@ -27,7 +27,7 @@ Before running the project, ensure you have the following installed:
 ## Setup Instructions
   1.**Clone the Repository:** <br>
   
-      `git clone https://github.com/your-username/interactive-dashboard.git`
+      `git clone https://github.com/santhosh-devUI/interactive-dashboard`
       
       `cd interactive-dashboard`
 
