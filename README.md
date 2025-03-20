@@ -57,3 +57,18 @@ Before running the project, ensure you have the following installed:
   <img src="src/assets/screenshots/interactive-dashboard-desktop-pie-chart.png" width="300">
 </p>
 
+   ### Tablet View: 
+
+  <p >
+  <img src="src/assets/screenshots/interactive-dashboard-tablet-bar-chart.png" width="300">  &nbsp;&nbsp;
+  <img src="src/assets/screenshots/interactive-dashboard-tablet-line-chart.png" width="300"> &nbsp;&nbsp;
+  <img src="src/assets/screenshots/interactive-dashboard-tablet-pie-chart.png" width="300">
+</p>
+
+   ### Mobile View: 
+
+  <p >
+  <img src="src/assets/screenshots/interactive-dashboard-mobile-bar-chart.png" width="300">  &nbsp;&nbsp;
+  <img src="src/assets/screenshots/interactive-dashboard-mobile-line-chart.png" width="300"> &nbsp;&nbsp;
+  <img src="src/assets/screenshots/interactive-dashboard-mobile-pie-chart.png" width="300">
+</p>
