@@ -57,6 +57,7 @@ Before running the project, ensure you have the following installed:
   <img src="src/assets/screenshots/interactive-dashboard-desktop-pie-chart.png" width="300">
 </p>
 <br> <br>
+
    ### Tablet View: 
 
   <p >
@@ -65,6 +66,7 @@ Before running the project, ensure you have the following installed:
   <img src="src/assets/screenshots/interactive-dashboard-tablet-pie-chart.png" width="300">
 </p>
 <br> <br>
+
    ### Mobile View: 
 
   <p >
