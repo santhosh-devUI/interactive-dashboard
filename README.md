@@ -25,6 +25,19 @@ Before running the project, ensure you have the following installed:
   `npm install -g @angular/cli`
 
 ## Setup Instructions
-  1.**Clone the Repository:** 
+  1.**Clone the Repository:** <br>
+  
       `git clone https://github.com/your-username/interactive-dashboard.git` <br>
       `cd interactive-dashboard`
+
+  2. **Install Dependencies:**: <br>
+
+      `npm install`
+
+  3. **Run the Application:** <br>
+
+      `ng serve`
+
+  4. **Open the Application:** <br>
+
+      - Navigate to `http://localhost:4200` in your browser.
