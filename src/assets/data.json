@@ -1,0 +1,28 @@
+{
+  "sales": [
+    { "name": "Product A", "value": 120 },
+    { "name": "Product B", "value": 200 },
+    { "name": "Product C", "value": 150 },
+    { "name": "Product D", "value": 80 },
+    { "name": "Product E", "value": 70 }
+  ],
+  "userEngagement": [
+    {
+      "name": "Engagement",
+      "series": [
+        { "name": "Week 1", "value": 50 },
+        { "name": "Week 2", "value": 90 },
+        { "name": "Week 3", "value": 120 },
+        { "name": "Week 4", "value": 60 },
+        { "name": "Week 5", "value": 80 }
+      ]
+    }
+  ],
+  "performance": [
+    { "name": "Jan", "value": 75 },
+    { "name": "Feb", "value": 85 },
+    { "name": "Mar", "value": 95 },
+    { "name": "Apr", "value": 60 },
+    { "name": "May", "value": 70 }
+  ]
+}

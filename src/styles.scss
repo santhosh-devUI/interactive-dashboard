@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+.chart-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+ngx-charts-bar-vertical,
+ngx-charts-line-chart,
+ngx-charts-pie-chart {
+  max-width: 100%;
+}

@@ -1,0 +1,71 @@
+<div class="container-fluid px-0">
+  <nav
+    class="navbar navbar-expand-lg navbar-dark"
+    style="background-color: #00b7eb"
+  >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Interactive Dashboard</a>
+    </div>
+  </nav>
+  <div class="container my-4">
+    <div class="row">
+      <div class="col-sm-3">
+        <label for="metric-select" class="form-label">Select Metric:</label>
+        <select
+          class="form-select form-select-lg mb-3"
+          id="metric-select"
+          (change)="onMetricChange($event)"
+        >
+          <option value="sales">Sales</option>
+          <option value="userEngagement">User Engagement</option>
+          <option value="performance">Performance</option>
+        </select>
+      </div>
+    </div>
+
+    <h2 class="text-center mb-3">{{ tableTitle }}</h2>
+    <div class="row my-2">
+      <div class="col-sm-7 my-2">
+        <ng-container *ngTemplateOutlet="selectedMetricTemplate"></ng-container>
+
+        <ng-template #salesTemplate>
+          <app-bar-chart [data]="data.sales" autoScale="true"></app-bar-chart>
+        </ng-template>
+
+        <ng-template #userEngagementTemplate>
+          <app-line-chart
+            [data]="data.userEngagement"
+            autoScale="true"
+          ></app-line-chart>
+        </ng-template>
+
+        <ng-template #performanceTemplate>
+          <app-pie-chart
+            [data]="data.performance"
+            autoScale="true"
+          ></app-pie-chart>
+        </ng-template>
+      </div>
+      <div class="col-sm-5 my-2">
+        <div class="table-responsive card p-4">
+          <table class="table table-striped table-bordered">
+            <thead class="table-primary">
+              <tr>
+                <th scope="col">S.No</th>
+                <th scope="col">Name</th>
+                <th scope="col">Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let item of tableData; let i = index">
+                <td>{{ i + 1 }}</td>
+                <td>{{ item.name }}</td>
+                <td>{{ item.value }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
