@@ -44,5 +44,11 @@ Before running the project, ensure you have the following installed:
       - Navigate to `http://localhost:4200` in your browser.
     
 ## Running Tests
-  To run the unit tests, use the following command:
+  To run the unit tests, use the following command: <br>
   `ng test`
+
+## Screenshots 
+
+  ### Desktop View: 
+
+  ![Image 1](assets/screenshots/interactive-dashboard-desktop-bar-chart.png) ![Image 2](assets/screenshots/interactive-dashboard-desktop-line-chart.png) ![Image 3](assets/screenshots/interactive-dashboard-desktop-pie-chart.png)
